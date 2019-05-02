@@ -1,0 +1,155 @@
+% -*- conding UTF-8 -*-
+% 组织文本
+
+\documentclass[UTF8]{ctexart}
+\usepackage[OT2,T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+
+\title{组织文本}
+\author{revolt}
+\date{\today}
+
+\bibliographystyle{plain} % 参考文献
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\section{52个字母}
+
+从英文字母,扩展到拉丁文字母.除了英文之外,还有西文字体,这种字体看起来很是优美.
+
+
+peu\quad importe ce qui m'arrivera\qquad demain je ne cesserai jamais de t'aimer. 
+
+shelfful shelf{}ful shelf\/ful
+
+\section{标点的使用}
+
+''\,'A' or 'B?'\,'' he asked! % 单引号和双引号的分开来写
+
+\section{各种符号的写法}
+
+a punctuation dash --- like this.
+
+Good: One,two,three\ldots
+
+Bad: one,two,three...
+
+she $\ldots$ she got it
+
+I've no idea\ldots
+
+\# \quad \$ \quad \% \quad \& \quad
+
+\{ \quad \} \quad \_ \quad
+
+\textbackslash % 下划线
+
+\punctstyle{quanjiao}
+\punctstyle{banjiao}
+\punctstyle{kaiming} 
+%\punctstyle{hangmoban} % 行末半角
+\punctstyle{plain} % 无格式
+
+\section{空格和换行}
+
+Happy \TeX ing Happy \TeX\ ing
+
+Happy \TeX{} ing Happy {\TeX} ing
+
+% ~ 在latex中被称为 带子 ties.
+
+Questions~1 % 名称和编号间
+
+Donald~E, Knuth % 名字之间,姓可以断开
+
+function~$(x)$ % 短公式的写法
+
+1,~2,and ~3 %序列的部分符号间
+
+Roman number XTT\@ Yes
+
+Tubjer et al. \ made the double play
+
+中文和English混排效果,这个应该 space 好看
+
+\mbox{条目}-a 不同于条目 -b
+
+小子\phantom{4}洗好脖子等死
+
+小子洗好脖子等死
+
+小子\hphantom{4}洗好脖子等死 %水平方向缩进
+
+小子\vphantom{4}洗好脖子等死 %垂直方向缩进
+
+这是一行文字 \\另外一行
+
+% 这是一行文字\linebreak[4] 另外一行
+
+\section{字体}
+
+
+\textit{Italic font test}
+
+{\bfseries Bold font test}
+
+\textmd{Medium series}
+
+\textbf{Bold extended series}
+
+{\itshape M}M
+
+\textit{M}m
+
+{\itshape M\/}M
+
+Bold '{\bfseries leaf}'
+
+Bold '{\bfseries leaf\/}'
+
+Bold '\textbf{leaf}'
+
+\textit{M}M
+
+\textit{M\nocorr}M
+
+% \newcommand\nocorrlist{,.}
+
+{\CJKfamily{hei}黑体}
+
+{\CJKfamily{sourcecodepro}Source Code Pro}
+
+{\CJKfamily{kai}楷体}
+
+{\CJKfamily{song}宋体}
+
+{\songti 宋体} \quad {\heiti 黑体} \quad {\kaishu 楷书} \quad {\fangsong 仿宋}
+
+\begin{quote}
+
+fontencoding{编码}
+
+fontfamily{族}
+
+fontseries{系列}
+
+fontshape{形状}
+
+fontsize{大小}{基本行距}
+
+\end{quote}
+
+\fontencoding{OT1}\fontfamily{pzc}
+\fontseries{mb}\fontshape{it}
+\fontsize{14}{17}\selectfont
+PostScript New Century SchoolBook 
+
+% \usefont{编码}{族}{系列}{形状}
+\usefont{OT1}{pzc}{mb}{it} PostScript New Centry SchoolBook
+
+\usefont{T1}{pbk}{db}{n} PostScript Bookman Demibold Normal
+\end{document}

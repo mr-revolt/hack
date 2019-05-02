@@ -1,0 +1,8 @@
+\contentsline {section}{\numberline {1}动机}{1}
+\contentsline {section}{\numberline {2}youku亲子频道的产生的时代背景}{2}
+\contentsline {section}{\numberline {3}youku母亲频道筛选}{2}
+\contentsline {section}{\numberline {4}对于低俗流行的警惕性}{3}
+\contentsline {section}{\numberline {5}放弃70后父母的比较落后的教育方式}{4}
+\contentsline {section}{\numberline {6}用数据分析来展示下架平台的数据}{4}
+\contentsline {section}{\numberline {7}图表的使用}{4}
+\contentsline {section}{\numberline {8}定义新的命令}{4}
